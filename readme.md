@@ -1,4 +1,4 @@
-nationswell
+NationSwell
 ===========
 
 This repository contains all code for the NationSwell website found at http://nationswell.org/. This repository is a hosted branch of the following git repository (github.com/wordpress/wordpress) maintained by Wordpress (wordpress.org). The custom theme is maintained under git within its own repositories.
