@@ -1,0 +1,81 @@
+<script>
+    jQuery(document).ready(function($) {
+        $("#buttonable_p2p_value").focus();
+
+        // for example: window.location.pathname = /wordpress/wp-admin/post.php
+        var admin_url = window.location.pathname;
+
+        // but in the visual editor we get the path of the plugin, not post.php
+        if (admin_url.indexOf('/wp-admin/') == -1) {
+            admin_url = admin_url.replace(/\/wp-content\/.*/, '/wp-admin/');
+        }
+
+        var ajax_url = admin_url.substring(0, admin_url.lastIndexOf('/')) + "/admin-ajax.php?action=p2p&type=";
+
+        $("#buttonable_p2p_value").autocomplete({
+            source: ajax_url + $('#buttonable_p2p_type').val(),
+            minLength: 3,
+            delay: 500
+        });
+
+        $('#buttonable_p2p_type').on('change', function(e) {
+            $("#buttonable_p2p_value").autocomplete("option", "source", ajax_url + $(this).val());
+        });
+
+        $('#buttonable_p2p_form').submit(function(ev) {
+            if (!$('#buttonable_p2p_value').val()) {
+                alert('Please enter a slug or ID');
+                return false;
+            }
+
+            if (tinyMCE) {
+                $('#buttonable_p2p_value').val(
+                    $('#buttonable_p2p_value').val().replace(/\"/g, "&quot;")
+                );
+
+                $('#buttonable_p2p_anchor').val(
+                    $('#buttonable_p2p_anchor').val().replace(/\"/g, "'")
+                );
+
+                $('#buttonable_p2p_attributes').val(
+                    $('#buttonable_p2p_attributes').val().replace(/"/g, "'")
+                );
+
+                var replace = '[p2p type="' + $('#buttonable_p2p_type').val()
+                    + '" value="' + $('#buttonable_p2p_value').val() + '"'
+                    + ($('#buttonable_p2p_anchor').val() ? (' anchor="' + $('#buttonable_p2p_anchor').val() + '"') : '')
+                    + ($('#buttonable_p2p_attributes').val() ? (' attributes="' + $('#buttonable_p2p_attributes').val() + '"') : '')
+                    + ']'
+                    + tinyMCE.activeEditor.selection.getContent()
+                    + '[/p2p]';
+                tinyMCEPopup.execCommand('mceReplaceContent', false, replace);
+                tinyMCEPopup.close();
+                ev.preventDefault();
+            }
+        });
+    });
+</script>
+
+<div id="buttonable_p2p_dialog" title="Post-to-Post Link Tag" class="buttonable_dialog">
+    <form id="buttonable_p2p_form">
+        <table class="form-table">
+        <tr>
+        <th><select name="type" id="buttonable_p2p_type">
+            <option value="slug" selected><?php _e("Post/Page Title", 'p2p'); ?></option>
+            <option value="category"><?php _e("Category Name", 'p2p'); ?></option>
+            <option value="post_tag"><?php _e("Tag Name", 'p2p'); ?></option>
+        </select></th>
+        <td><input type="text" name="value" id="buttonable_p2p_value" size="20" /></td>
+        </tr>
+        <tr>
+        <th><label for="buttonable_p2p_anchor"><?php _e("Page Anchor:", 'p2p'); ?></label></th>
+        <td><input type="text" name="anchor" id="buttonable_p2p_anchor" size="20" /></td>
+        </tr>
+        <tr>
+        <th><label for="buttonable_p2p_attributes"><?php _e("Link Attributes:", 'p2p'); ?></label></th>
+        <td><input type="text" name="attributes" id="buttonable_p2p_attributes" size="20" /></td>
+        </tr>
+        </table>
+        <p class="submit"><input type="submit" name="buttonable_p2p_submit" value="<?php _e('Add Post-to-Post Link', 'p2p'); ?>" class="button-secondary" /></p>
+    </form>
+</div>

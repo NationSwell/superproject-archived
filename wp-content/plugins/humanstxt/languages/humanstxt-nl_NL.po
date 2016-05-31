@@ -1,0 +1,436 @@
+# Dutch translation of the Humans TXT WordPress plugin
+# This file is distributed under the same license as the Humans TXT plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Humans TXT 1.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/humanstxt\n"
+"POT-Creation-Date: 2011-08-12 13:13+0000\n"
+"PO-Revision-Date: 2011-08-14 00:54+0000\n"
+"Last-Translator: Till Krüss <Unknown>\n"
+"Language-Team: Dutch <nl@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2011-08-14 01:08+0000\n"
+"X-Generator: Launchpad (build 13674)\n"
+
+#. translators: variable name for the site/blog name (title)
+#: humanstxt.php:543
+msgid "wp-title"
+msgstr "wp-title"
+
+#: humanstxt.php:543
+msgid "Name (title) of site/blog"
+msgstr "Naam (titel) site/blog"
+
+#. translators: variable name for the site/blog tagline (description)
+#: humanstxt.php:544
+msgid "wp-tagline"
+msgstr "wp-tagline"
+
+#: humanstxt.php:544
+msgid "Tagline (description) of site/blog"
+msgstr "Tagline (omschrijving) site/blog"
+
+#. translators: variable name for the number of published posts
+#: humanstxt.php:545
+msgid "wp-posts"
+msgstr "wp-posts"
+
+#: humanstxt.php:545
+msgid "Number of published posts"
+msgstr "Aantal gepubliceerde berichten"
+
+#. translators: variable name for the number of published pages
+#: humanstxt.php:546
+msgid "wp-pages"
+msgstr "wp-pages"
+
+#: humanstxt.php:546
+msgid "Number of published pages"
+msgstr "Aantal gepubliceerde pagina's"
+
+#. translators: variable name for the "last modified" timestamp
+#: humanstxt.php:547
+msgid "wp-lastupdate"
+msgstr "wp-lastupdate"
+
+#: humanstxt.php:547
+msgid "Date of last modified post/page"
+msgstr "Datum laatst gewijzigd bericht/pagina"
+
+#. translators: variable name for the author list
+#: humanstxt.php:548
+msgid "wp-authors"
+msgstr "wp-authors"
+
+#: humanstxt.php:548
+msgid "Active authors and their contact details"
+msgstr "Actieve auteurs met bijbehorende contact gegevens"
+
+#. translators: variable name for WordPress languages(s)
+#: humanstxt.php:549
+msgid "wp-language"
+msgstr "wp-language"
+
+#: humanstxt.php:549
+msgid "WordPress language(s)"
+msgstr "WordPress taal/talen"
+
+#. translators: variable name for activated WordPress plugins
+#: humanstxt.php:550
+msgid "wp-plugins"
+msgstr "wp-plugins"
+
+#: humanstxt.php:550
+msgid "Activated WordPress plugins"
+msgstr "Geactiveerde WordPress plugins"
+
+#. translators: variable name for the encoding (charset) used by WordPress
+#: humanstxt.php:551
+msgid "wp-charset"
+msgstr "wp-charset"
+
+#: humanstxt.php:551
+msgid "Encoding used for pages and feeds"
+msgstr "Encodering voor pagina's en feeds"
+
+#. translators: variable name for the installed WordPress version
+#: humanstxt.php:552
+msgid "wp-version"
+msgstr "wp-version"
+
+#: humanstxt.php:552
+msgid "Installed WordPress version"
+msgstr "Geïnstalleerde WordPress versie"
+
+#. translators: variable name for the running PHP parser version
+#: humanstxt.php:553
+msgid "php-version"
+msgstr "php-version"
+
+#: humanstxt.php:553
+msgid "Running PHP parser version"
+msgstr "PHP parser versie"
+
+#. translators: variable name for the summary of the active WordPress theme
+#: humanstxt.php:554
+msgid "wp-theme"
+msgstr "wp-theme"
+
+#: humanstxt.php:554
+msgid "Summary of the active WordPress theme"
+msgstr "Samenvatting van de huidige WordPress thema"
+
+#. translators: variable name for the name of the active WordPress theme
+#: humanstxt.php:555
+msgid "wp-theme-name"
+msgstr "wp-theme-name"
+
+#: humanstxt.php:555
+msgid "Name of the active theme"
+msgstr "Naam van het huidige thema"
+
+#. translators: variable name for the version of the active WordPress theme
+#: humanstxt.php:556
+msgid "wp-theme-version"
+msgstr "wp-theme-version"
+
+#: humanstxt.php:556
+msgid "Version of the active theme"
+msgstr "Versie van het huidige thema"
+
+#. translators: variable name for the author name of the active WordPress theme
+#: humanstxt.php:557
+msgid "wp-theme-author"
+msgstr "wp-theme-author"
+
+#: humanstxt.php:557
+msgid "Author name of the active theme"
+msgstr "Auteur van het huidige thema"
+
+#. translators: variable name for the author link of the active WordPress theme
+#: humanstxt.php:558
+msgid "wp-theme-author-link"
+msgstr "wp-theme-author-link"
+
+#: humanstxt.php:558
+msgid "Author link of the active theme"
+msgstr "Auteurslink van het actieve thema"
+
+#. translators: only translate the text inside angle brackets < > to keep the
+#. humans.txt international. if the variable names are translated, you may
+#. translate them here too.
+#: humanstxt.php:605
+msgid ""
+"/* the humans responsible & colophon */\n"
+"/* humanstxt.org */\n"
+"\n"
+"/* TEAM */\n"
+"\t<your title>: <your name>\n"
+"\tSite: <website url>\n"
+"\tTwitter: <@username>\n"
+"\tLocation: <city, country>\n"
+"\n"
+"\t\t[...]\n"
+"\n"
+"/* THANKS */\n"
+"\t<name>: <link, email, @twittername, ...>\n"
+"\n"
+"\t\t[...]\n"
+"\n"
+"/* SITE */\n"
+"\tLast update: $wp-lastupdate$\n"
+"\tStandards: <HTML5, CSS3, ...>\n"
+"\tCMS: WordPress $wp-version$ (running PHP $php-version$)\n"
+"\tLanguage: <English, Klingon, ...>\n"
+"\tComponents: <jQuery, Typekit, Modernizr, ...>\n"
+"\tIDE: <Coda, Zend Studio, Photoshop, Terminal, ...>\n"
+msgstr ""
+"/* the humans responsible & colophon */\n"
+"/* humanstxt.org */\n"
+"\n"
+"/* TEAM */\n"
+"\t<je titel>: <je naam>\n"
+"\tSite: <website url>\n"
+"\tTwitter: <@gebruikersnaam>\n"
+"\tLocatie: <stad, land>\n"
+"\n"
+"\t\t[...]\n"
+"\n"
+"/* THANKS */\n"
+"\t<naam>: <link, email, @twitternaam, ...>\n"
+"\n"
+"\t\t[...]\n"
+"\n"
+"/* SITE */\n"
+"\tLaatste update: $wp-lastupdate$\n"
+"\tStandaarden: <HTML5, CSS3, ...>\n"
+"\tCMS: WordPress $wp-version$ (draait op PHP $php-version$)\n"
+"\tTaal: <Nederlands, Engels, ...>\n"
+"\tComponenten: <jQuery, Typekit, Modernizr, ...>\n"
+"\tIDE: <Coda, Zend Studio, Photoshop, Terminal, ...>\n"
+
+#: options.php:114
+msgid "Please update your WordPress installation."
+msgstr "Update de WordPress installatie"
+
+#: options.php:115
+msgid "Humans TXT %1$s requires WordPress %2$s or higher."
+msgstr "Humans TXT %1$s gebruikt WordPress %2$s of hoger."
+
+#. Plugin Name of the plugin/theme
+#: options.php:137 options.php:341 options.php:493
+msgid "Humans TXT"
+msgstr "Humans TXT"
+
+#: options.php:175
+msgid "What is the humans.txt?"
+msgstr "Wat is humans.txt"
+
+#: options.php:176
+msgid ""
+"It's an initiative for knowing the people behind a website. It's a TXT file "
+"in the site root that contains information about the humans who have "
+"contributed to the website."
+msgstr ""
+"Het is een initiatief om de mensen achter een website te bekend te maken. "
+"Het is een TXT bestand in de hoofddirectory dat informatie bevat over de "
+"mensen die deelnemen aan de website."
+
+#: options.php:181
+msgid "Who should I mention?"
+msgstr "Wie moet ik vermeldden?"
+
+#: options.php:182
+msgid ""
+"Whoever you want to, provided they wish you to do so. You can mention the "
+"developer, the designer, the copywriter, the webmaster, the editor, ... "
+"anyone who contributed to the website."
+msgstr ""
+"Wie je maar wilt, zolang er mee ingestemd is. Je kunt de programmeur, "
+"ontwerper, copywriter, webmaster, redacteur, ... iedereen die aan de site "
+"heeft meegewerkt vermeldden."
+
+#: options.php:187
+msgid "How should I format it?"
+msgstr "Hoe dien ik het bestand op te maken?"
+
+#: options.php:188
+msgid ""
+"However you want, just make sure humans can easily read it. For some "
+"inspiration check the humans.txt of <a "
+"href=\"http://humanstxt.org/humans.txt\" rel=\"external\">humanstxt.org</a> "
+"or <a href=\"http://html5boilerplate.com/humans.txt\" "
+"rel=\"external\">html5boilerplate.com</a>."
+msgstr ""
+"Er zijn geen vaste richtlijnen. Zorg er voor dat de tekst goed door mensen "
+"te lezen is. Voor wat meer inspiratie kun je de meegeleverde humans.txt "
+"bekijken van <a href=\"http://humanstxt.org/humans.txt\" "
+"rel=\"external\">humanstxt.org</a> of <a "
+"href=\"http://html5boilerplate.com/humans.txt\" "
+"rel=\"external\">html5boilerplate.com</a>."
+
+#: options.php:193
+msgid "Official Humans TXT website"
+msgstr "Officiele Humans TXT website"
+
+#: options.php:194
+msgid "Plugin Homepage"
+msgstr "Plugin Homepagina"
+
+#: options.php:195
+msgid "Plugin Support Forum"
+msgstr "Plugin Support Forum"
+
+#: options.php:282
+msgid ""
+"Humans TXT includes the functionality of %1$s. Please deactivate %1$s to "
+"avoid plugin conflicts."
+msgstr ""
+"Humans TXT bevat de functionaliteit van %1$s. Gaarne %1$s deactiveren om "
+"plugin conflicten te voorkomen."
+
+#: options.php:346
+msgid "Revision restored."
+msgstr "Revisie hersteld."
+
+#: options.php:349
+msgid "Read FAQ..."
+msgstr "Lees Veelgestelde Vragen..."
+
+#: options.php:352
+msgid "Error: WordPress is not installed in the root of the domain."
+msgstr ""
+"Foutmelding: WordPress is niet in de root van het domein geinstalleerd"
+
+#: options.php:354
+msgid "Error: The site root already contains a physical humans.txt file."
+msgstr "Foutmelding: Site root bevat al een humans.txt bestand."
+
+#: options.php:356
+msgid ""
+"Error: Please <a href=\"%s\">update your permalink structure</a> to "
+"something other than the default."
+msgstr ""
+"Foutmelding: Gaarne <a href=\"%s\">je permalink structuur updaten</a> naar "
+"iets anders dan de standaard instelling."
+
+#: options.php:368
+msgid ""
+"If you like this plugin, why not <a href=\"%s\" title=\"%s\" "
+"rel=\"external\">recommend it to others</a> by rating it?"
+msgstr ""
+"Als deze plugin je bevalt waarom niet <a href=\"%s\" title=\"%s\" "
+"rel=\"external\">aanbevelen aan anderen</a> door een waardering te geven?"
+
+#: options.php:368
+msgid "Rate this plugin on WordPress.org"
+msgstr "Waardeer deze plugin op WordPress.org"
+
+#: options.php:385 options.php:388 options.php:433 options.php:440
+msgid "Humans TXT File"
+msgstr "Humans TXT bestand"
+
+#: options.php:391
+msgid "View this site's humans.txt file"
+msgstr "Bekijk humans.txt bestand van deze site"
+
+#. translators: %s: humans.txt (linked to the site's humans.txt file)
+#: options.php:392
+msgid "Activate %s file"
+msgstr "Actieve %s bestand"
+
+#: options.php:395
+msgid ""
+"Adds an <link rel=\"author\"> tag to the site's <head> tag pointing to the "
+"humans.txt file."
+msgstr ""
+"Voegt een <link rel=\"author\"> tag aan de site's <head> tag die naar het "
+"humans.txt bestand verwijst."
+
+#: options.php:397
+msgid "Add an author link tag to the site"
+msgstr "Voeg een auteurs link tag toe aan de site"
+
+#: options.php:403 options.php:406
+msgid "Editing Permissions"
+msgstr "Wijzigings Permissies"
+
+#: options.php:407
+msgid "Roles that can edit the content of the humans.txt file"
+msgstr "Rollen die de inhoud van het humans.txt bestand mogen wijzigen"
+
+#: options.php:441
+msgid ""
+"If you need a little help with your humans.txt, try the \"Help\" button in "
+"the top right corner of this page."
+msgstr ""
+"Indien je hulp nodig hebt met je humans.txt, probeer dan de 'Hulp' knop "
+"rechts boven aan de pagina."
+
+#: options.php:450
+msgid "View Revisions"
+msgstr "Bekijk revisies"
+
+#: options.php:457
+msgid "Variables"
+msgstr "Variabelen"
+
+#: options.php:461
+msgid "Preview"
+msgstr "Voorbeeld"
+
+#: options.php:469
+msgid "Suggest another variable..."
+msgstr "Stel een andere variabele voor..."
+
+#: options.php:475
+msgid "Shortcode Usage"
+msgstr "BBcode Gebruik"
+
+#: options.php:476
+msgid ""
+"You can use the <code>[humanstxt]</code> shortcode to display the "
+"<em>humans.txt</em> file on a page or in a post. By default, all links, "
+"email addresses and Twitter account names will be converted into clickable "
+"links and email addresses will be encoded to block spam bots. <a href=\"%s\" "
+"rel=\"external\">Of course you can customize it...</a>"
+msgstr ""
+"Je kunt <code>[humanstxt]</code> BBcode om het <em>humans.txt</em> bestand "
+"in een page of in een bericht te gebruiken. Standaard worden alle links, "
+"email adressen en Twitter namen omgezet naar klikbare links en email "
+"adressen worden ge-encodeerd om spam bots te blokkeren. <a href=\"%s\" "
+"rel=\"external\">Uiteraard kun je deze aanpassen...</a>"
+
+#. translators: %s: revision date
+#: options.php:503
+msgid "Revision created on %s"
+msgstr "Revisie aangemaakt op %s"
+
+#: options.php:505
+msgid "Restore Revision"
+msgstr "Herstel Revisie"
+
+#. translators: %s: number of stored revisions
+#: options.php:544
+msgid ""
+"WordPress is storing the last %s revisions of your <em>humans.txt</em> file."
+msgstr ""
+"WordPress bewaart de laatste %s revisies van jouw  <em>humans.txt</em> "
+"bestand."
+
+#. Description of the plugin/theme
+msgid ""
+"Credit the people behind your website in your <strong>humans.txt</strong> "
+"file. Easy to edit, directly within WordPress."
+msgstr ""
+"Vermeld de mensen achter je site eervol in jouw <strong>humans.txt</strong> "
+"bestand. Makkelijk te wijzigen, direct vanuit WordPress."
+
+#~ msgid ""
+#~ "If you like this plugin, why not <br /><a href=\"%s\" title=\"%s\" "
+#~ "rel=\"external\">recommend it to others</a> by rating it?"
+#~ msgstr ""
+#~ "Als deze plugin je bevalt waarom niet <br /><a href=\"%s\" title=\"%s\" "
+#~ "rel=\"external\">aanbevelen aan anderen</a>  door een waardering te geven?"

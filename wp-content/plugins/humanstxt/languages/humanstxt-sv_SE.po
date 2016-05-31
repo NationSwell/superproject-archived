@@ -1,0 +1,551 @@
+# Swedish translation for humanstxt-wp-plugin
+# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
+# This file is distributed under the same license as the humanstxt-wp-plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: humanstxt-wp-plugin\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2012-05-28 03:20+0000\n"
+"PO-Revision-Date: 2012-08-30 02:25+0000\n"
+"Last-Translator: dotar <Unknown>\n"
+"Language-Team: Swedish <sv@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2012-11-28 14:13+0000\n"
+"X-Generator: Launchpad (build 16309)\n"
+
+#. translators: variable name for the site/blog name (title)
+#: humanstxt.php:559
+msgid "wp-title"
+msgstr "wp-title"
+
+#: humanstxt.php:559
+msgid "Name (title) of site/blog"
+msgstr "Namn (titeln) på sidan/bloggen"
+
+#. translators: variable name for the site/blog tagline (description)
+#: humanstxt.php:560
+msgid "wp-tagline"
+msgstr "wp-tagline"
+
+#: humanstxt.php:560
+msgid "Tagline (description) of site/blog"
+msgstr "Slogan (beskrivning) av sidan/bloggen"
+
+#. translators: variable name for the number of published posts
+#: humanstxt.php:561
+msgid "wp-posts"
+msgstr "wp-posts"
+
+#: humanstxt.php:561
+msgid "Number of published posts"
+msgstr "Antal publicerade inlägg"
+
+#. translators: variable name for the number of published pages
+#: humanstxt.php:562
+msgid "wp-pages"
+msgstr "wp-pages"
+
+#: humanstxt.php:562
+msgid "Number of published pages"
+msgstr "Antal publicerade sidor"
+
+#. translators: variable name for the author list
+#: humanstxt.php:563
+msgid "wp-authors"
+msgstr "wp-authors"
+
+#: humanstxt.php:563
+msgid "Active authors and their contact details"
+msgstr "Aktiva författare och deras kontaktuppgifter"
+
+#. translators: variable name for the "last modified" timestamp
+#: humanstxt.php:564
+msgid "wp-lastupdate"
+msgstr "wp-lastupdate"
+
+#: humanstxt.php:564
+msgid "Date of last modified post/page"
+msgstr "Datum på  senast modifierade inlägg/sida"
+
+#. translators: variable name for WordPress languages(s)
+#: humanstxt.php:565
+msgid "wp-language"
+msgstr "wp-language"
+
+#: humanstxt.php:565
+msgid "WordPress language(s)"
+msgstr "WordPresspråk"
+
+#. translators: variable name for WordPress timezone
+#: humanstxt.php:566
+msgid "wp-timezone"
+msgstr "wp-timezone"
+
+#: humanstxt.php:566
+msgid "WordPress timezone"
+msgstr "WordPresstidszon"
+
+#. translators: variable name for the installed WordPress version
+#: humanstxt.php:567
+msgid "wp-version"
+msgstr "wp-version"
+
+#: humanstxt.php:567
+msgid "Installed WordPress version"
+msgstr "Installerad WordPressversion"
+
+#. translators: variable name for the encoding (charset) used by WordPress
+#: humanstxt.php:568
+msgid "wp-charset"
+msgstr "wp-charset"
+
+#: humanstxt.php:568
+msgid "Encoding used for pages and feeds"
+msgstr "Teckenkodning för sidor och feeds"
+
+#. translators: variable name for server timezone
+#: humanstxt.php:570
+msgid "server-timezone"
+msgstr "server-timezone"
+
+#: humanstxt.php:570
+msgid "Server timezone"
+msgstr "Serverns tidszon"
+
+#. translators: variable name for server ip address
+#: humanstxt.php:571
+msgid "server-ip"
+msgstr "server-ip"
+
+#: humanstxt.php:571
+msgid "Server IP address"
+msgstr "Serverns IP-adress"
+
+#. translators: variable name for operating system name
+#: humanstxt.php:572
+msgid "server-os"
+msgstr "server-os"
+
+#: humanstxt.php:572
+msgid "Operating system name"
+msgstr "Operativsystemets namn"
+
+#. translators: variable name server identification string
+#: humanstxt.php:573
+msgid "server-identity"
+msgstr "server-identity"
+
+#: humanstxt.php:573
+msgid "Server identification"
+msgstr "Serveridentifikation"
+
+#. translators: variable name for php parser version
+#: humanstxt.php:574
+msgid "php-version"
+msgstr "php-version"
+
+#: humanstxt.php:574
+msgid "PHP parser version"
+msgstr "PHP parserversion"
+
+#. translators: variable name for zend engine version
+#: humanstxt.php:575
+msgid "zend-version"
+msgstr "zend-version"
+
+#: humanstxt.php:575
+msgid "Zend Engine version"
+msgstr "Zend Engineversion"
+
+#. translators: variable name for MySQL server version
+#: humanstxt.php:576
+msgid "mysql-version"
+msgstr "mysql-version"
+
+#: humanstxt.php:576
+msgid "MySQL server version"
+msgstr "MySQL serverversion"
+
+#. translators: variable name for activated WordPress plugins
+#: humanstxt.php:578
+msgid "wp-plugins"
+msgstr "wp-plugins"
+
+#: humanstxt.php:578
+msgid "Activated WordPress plugins"
+msgstr "Aktiverade WordPressplugin"
+
+#. translators: variable name for the summary of the active WordPress theme
+#: humanstxt.php:579
+msgid "wp-theme"
+msgstr "wp-theme"
+
+#: humanstxt.php:579
+msgid "Summary of the active WordPress theme"
+msgstr "Sammanfattning av det aktiva WordPresstemat"
+
+#. translators: variable name for the name of the active WordPress theme
+#: humanstxt.php:580
+msgid "wp-theme-name"
+msgstr "wp-theme-name"
+
+#: humanstxt.php:580
+msgid "Name of the active theme"
+msgstr "Det aktiva temats namn"
+
+#. translators: variable name for the version of the active WordPress theme
+#: humanstxt.php:581
+msgid "wp-theme-version"
+msgstr "wp-theme-version"
+
+#: humanstxt.php:581
+msgid "Version of the active theme"
+msgstr "Version på det aktiva temat"
+
+#. translators: variable name for the author name of the active WordPress theme
+#: humanstxt.php:582
+msgid "wp-theme-author"
+msgstr "wp-theme-author"
+
+#: humanstxt.php:582
+msgid "Author name of the active theme"
+msgstr "Det aktiva temats upphovsman"
+
+#. translators: variable name for the author link of the active WordPress theme
+#: humanstxt.php:583
+msgid "wp-theme-author-link"
+msgstr "wp-theme-author-link"
+
+#: humanstxt.php:583
+msgid "Author link of the active theme"
+msgstr "Upphovsmans länk till det aktiva temat"
+
+#. translators: only translate the text inside angle brackets < > to keep the
+#. humans.txt international. if the variable names are translated, you may
+#. translate them here too.
+#: humanstxt.php:630
+msgid ""
+"/* the humans responsible & colophon */\n"
+"/* humanstxt.org */\n"
+"\n"
+"/* TEAM */\n"
+"\t<your title>: <your name>\n"
+"\tSite: <website url>\n"
+"\tTwitter: <@username>\n"
+"\tLocation: <city, country>\n"
+"\n"
+"\t\t[...]\n"
+"\n"
+"/* THANKS */\n"
+"\t<name>: <link, email, @twittername, ...>\n"
+"\n"
+"\t\t[...]\n"
+"\n"
+"/* SITE */\n"
+"\tLast update: $wp-lastupdate$\n"
+"\tStandards: <HTML5, CSS3, ...>\n"
+"\tCMS: WordPress $wp-version$ (running PHP $php-version$)\n"
+"\tLanguage: <English, Klingon, ...>\n"
+"\tComponents: <jQuery, Typekit, Modernizr, ...>\n"
+"\tIDE: <Coda, Zend Studio, Photoshop, Terminal, ...>\n"
+msgstr ""
+"/* the humans responsible & colophon */\n"
+"/* humanstxt.org */\n"
+"\n"
+"/* TEAM */\n"
+"\t<din titel>: <ditt namn>\n"
+"\tSite: <hemsideadress>\n"
+"\tTwitter: <@username>\n"
+"\tLocation: <stad, land>\n"
+"\n"
+"\t\t[...]\n"
+"\n"
+"/* THANKS */\n"
+"\t<namn>: <länk, email, @twitternamn, ...>\n"
+"\n"
+"\t\t[...]\n"
+"\n"
+"/* SITE */\n"
+"\tLast update: $wp-lastupdate$\n"
+"\tStandards: <HTML5, CSS3, ...>\n"
+"\tCMS: WordPress $wp-version$ (running PHP $php-version$)\n"
+"\tLanguage: <English, Klingon, ...>\n"
+"\tComponents: <jQuery, Typekit, Modernizr, ...>\n"
+"\tIDE: <Coda, Zend Studio, Photoshop, Terminal, ...>\n"
+
+#: options.php:121
+msgid "Please update your WordPress installation."
+msgstr "Var vänligen uppdatera din Wordpressinstallation."
+
+#: options.php:122
+msgid "Humans TXT %1$s requires WordPress %2$s or higher."
+msgstr "Humans TXT %1$s kräver WordPress %2$s eller högre."
+
+#. Plugin Name of the plugin/theme
+#: options.php:151 options.php:445 options.php:640
+msgid "Humans TXT"
+msgstr "Humans TXT"
+
+#: options.php:185
+msgid "What is the humans.txt?"
+msgstr "Vad är humans.txt?"
+
+#: options.php:186
+msgid ""
+"It's an initiative for knowing the people behind a website. It's a TXT file "
+"in the site root that contains information about the humans who have "
+"contributed to the website."
+msgstr ""
+"Det är ett initiativ för att få information om människorna bakom "
+"webbplatsen. Det är en TXT-fil i webbplatsens rot som innehåller information "
+"om människorna som har bidragit till webbplatsen."
+
+#: options.php:190
+msgid "Who should I mention?"
+msgstr "Vem borde jag nämna?"
+
+#: options.php:191
+msgid ""
+"Whoever you want to, provided they wish you to do so. You can mention the "
+"developer, the designer, the copywriter, the webmaster, the editor, ... "
+"anyone who contributed to the website."
+msgstr ""
+"Vem som helst, så länge de vill att du gör det. Du kan nämna utvecklaren, "
+"designern, copywritern, webmastern, utgivaren, ... vem som helst som har "
+"bidragit till webbsidan."
+
+#: options.php:195
+msgid "How should I format it?"
+msgstr "Hur borde jag formatera det?"
+
+#: options.php:196
+msgid ""
+"However you want, just make sure humans can easily read it. For some "
+"inspiration check the humans.txt of <a "
+"href=\"http://humanstxt.org/humans.txt\" rel=\"external\">humanstxt.org</a> "
+"or <a href=\"http://html5boilerplate.com/humans.txt\" "
+"rel=\"external\">html5boilerplate.com</a>."
+msgstr ""
+"Som du vill, se bara till så människor har lätt för att läsa det.  För lite "
+"inspiration kolla in humans.txt på <a "
+"href=\"http://humanstxt.org/humans.txt\" rel=\"external\">humanstxt.org</a> "
+"eller <a href=\"http://html5boilerplate.com/humans.txt\" "
+"rel=\"external\">html5boilerplate.com</a>."
+
+#: options.php:199
+msgid ""
+"Variables can be used to show dynamic content in your humans.txt file. You "
+"can show your visitors for example the amount of published posts, a list of "
+"activated plugins, the name of the current theme or the installed WordPress "
+"version. Hover your cursor over a variable to see a preview of it."
+msgstr ""
+"Variabler kan användas för att visa dynamiskt innehåll i din humans.txt. Du "
+"kan till exempel visa dina besökare antalet publicerade inlägg, en lista på "
+"aktiva plugin, namnet på det nuvarande temat eller den installerade "
+"WordPressversionen. Håll muspekaren över en variabel för att se en "
+"förhandsgranskning av den."
+
+#: options.php:202
+msgid "Humans TXT Website"
+msgstr "Humans TXT Webbsida"
+
+#: options.php:203
+msgid "Plugin Homepage"
+msgstr "Pluginens Webbsida"
+
+#: options.php:204
+msgid "Plugin Support Forum"
+msgstr "Pluginens Support Forum"
+
+#: options.php:211 options.php:505 options.php:508 options.php:555
+#: options.php:562
+msgid "Humans TXT File"
+msgstr "Humans TXT File"
+
+#: options.php:212 options.php:215 options.php:595
+msgid "Variables"
+msgstr "Variabler"
+
+#: options.php:368
+msgid ""
+"Humans TXT includes the functionality of %1$s. Please deactivate %1$s to "
+"avoid plugin conflicts."
+msgstr ""
+"Humans TXT inkluderar funktionaliteten hos %1$s. Var vänlig avaktivera %1$s "
+"för att undvika konflikter mellan plugin."
+
+#: options.php:447
+msgid "Please read the FAQ..."
+msgstr "Var vänlig läs FAQ..."
+
+#: options.php:452
+msgid "Revision restored."
+msgstr "Ändring återställd."
+
+#: options.php:454
+msgid "Import successful. A backup of the original file has been created."
+msgstr "Importen lyckades. En säkerhetskopia av originalfilen har skapats."
+
+#: options.php:456
+msgid ""
+"Error: The content has been imported, but the original file could not be "
+"renamed."
+msgstr ""
+"Fel: Innehållet har importerats, men originalfilen kunde inte döpas om."
+
+#: options.php:458
+msgid "Error: Import failed."
+msgstr "Fel: Import misslyckades."
+
+#: options.php:462
+msgid "Error: WordPress is not installed in the root of the domain."
+msgstr "Fel: WordPress är inte installerat i webbplatsens rot."
+
+#: options.php:466
+msgid "Error: The site root already contains a physical humans.txt file."
+msgstr "Fel: Webbplatsens rot innehåller redan en fysisk humans.txt-fil."
+
+#. translators: Please read the FAQ... or try to ...
+#: options.php:468
+msgid ""
+"or try to <a href=\"%s\">import and rename</a> the physical humans.txt file."
+msgstr ""
+"eller pröva att <a href=\"%s\">importera och döp om</a> den fysiska "
+"humans.txt-filen."
+
+#: options.php:472
+msgid ""
+"Error: Please <a href=\"%s\">update your permalink structure</a> to "
+"something other than the default."
+msgstr ""
+"Fel: Var vänlig <a href=\"%s\">uppdatera din permalänkstruktur</a> till "
+"något annat än standard."
+
+#: options.php:484
+msgid ""
+"If you like this plugin, why not <a href=\"%s\" title=\"%s\" "
+"rel=\"external\">recommend it to others</a> by rating it?"
+msgstr ""
+"Om du gillar detta plugin, varför inte <a href=\"%s\" title=\"%s\" "
+"rel=\"external\">rekommendera det till andra</a> genom att betygsätta det?"
+
+#: options.php:484
+msgid "Rate this plugin on WordPress.org"
+msgstr "Betygsätt detta plugin på WordPress.org"
+
+#: options.php:511
+msgid "Activate humans.txt file"
+msgstr "Aktivera humans.txt-filen"
+
+#: options.php:514
+msgid ""
+"Adds an <link rel=\"author\"> tag to the site's <head> tag pointing to the "
+"humans.txt file."
+msgstr ""
+"Lägger till taggen <link rel=\"author\"> till sidans <head>-tagg som pekar "
+"till humans.txt-filen."
+
+#: options.php:516
+msgid "Add an author link tag to the site"
+msgstr "Lägger till en tagg för upphovsmannens länk på sidan"
+
+#: options.php:522 options.php:525
+msgid "Editing Permissions"
+msgstr "Redigerar behörigheter"
+
+#: options.php:526
+msgid "Roles that can edit the content of the humans.txt file"
+msgstr "Roller som kan redigera innehållet i humans.txt-filen"
+
+#: options.php:549
+msgid "View Humans TXT"
+msgstr "Visa Humans TXT"
+
+#: options.php:563
+msgid ""
+"If you need a little help with your humans.txt, try the \"Help\" button at "
+"the top right of this page."
+msgstr ""
+"Om du behöver hjälp med din humans.txt, tryck på \"Hjälp\"-knappen längst "
+"upp till höger på denna sida."
+
+#: options.php:574
+msgid "View Revisions"
+msgstr "Visa ändringar"
+
+#: options.php:582
+msgid "Server"
+msgstr "Server"
+
+#: options.php:583
+msgid "Themes & Plugins"
+msgstr "Teman & plugin"
+
+#: options.php:584
+msgid "Miscellaneous"
+msgstr "Övriga"
+
+#. translators: Preview: Not available...
+#: options.php:602
+msgid "Not available..."
+msgstr "Ej tillgänglig..."
+
+#. translators: %s: output preview of variable
+#: options.php:603
+msgid "Preview: %s"
+msgstr "Förhandsvisning: %s"
+
+#: options.php:615
+msgid "Suggest another variable..."
+msgstr "Föreslå en annan variabel..."
+
+#: options.php:622
+msgid "Shortcode Usage"
+msgstr "Användning av kortkod"
+
+#: options.php:623
+msgid ""
+"You can use the <code>[humanstxt]</code> shortcode to display the "
+"<em>humans.txt</em> file on a page or in a post. By default, all links, "
+"email addresses and Twitter account names will be converted into clickable "
+"links and email addresses will be encoded to block spam bots. <a href=\"%s\" "
+"rel=\"external\">Of course you can customize it...</a>"
+msgstr ""
+"Du kan använda kortkoden <code>[humanstxt]</code> för att visa "
+"<em>humans.txt</em>-filen på en sida eller i ett inlägg. Som standard kommer "
+"alla länkar, e-postadresser och Twitterkonton bli konverterade till "
+"klickbara länkar och e-postadressen kommer bli kodade för att blockera "
+"spamrobotar. <a href=\"%s\" rel=\"external\">Självklart kan du skräddarsy "
+"detta...</a>"
+
+#. translators: %s: revision date
+#: options.php:650
+msgid "Revision created on %s"
+msgstr "Ändring skapad %s"
+
+#: options.php:652
+msgid "Restore Revision"
+msgstr "Återställ ändring"
+
+#: options.php:657
+msgid "You cannot compare a revision to itself."
+msgstr "Du kan inte jämföra en ändring med sig själv"
+
+#. translators: %s: number of stored revisions
+#: options.php:740
+msgid ""
+"WordPress is storing the last %s revisions of your <em>humans.txt</em> file."
+msgstr ""
+"WordPress sparar de senaste %s ändringarna av din <em>humans.txt</em>-fil."
+
+#. Description of the plugin/theme
+msgid ""
+"Credit the people behind your website in your <strong>humans.txt</strong> "
+"file. Easy to edit, directly within WordPress."
+msgstr ""
+"Credit till människorna bakom din webbplats i din "
+"<strong>humans.txt</strong>-fil. Lätt att redigera direkt från WordPress."

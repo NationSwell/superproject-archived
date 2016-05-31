@@ -1,0 +1,551 @@
+# Indonesian translation of the Humans TXT WordPress plugin
+# This file is distributed under the same license as the Humans TXT plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Humans TXT 1.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/humanstxt\n"
+"POT-Creation-Date: 2011-11-11 09:01+0000\n"
+"PO-Revision-Date: 2011-11-14 06:37+0000\n"
+"Last-Translator: Dedy Sofyan <Unknown>\n"
+"Language-Team: Indonesian <id@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2011-11-14 07:44+0000\n"
+"X-Generator: Launchpad (build 14277)\n"
+
+#. translators: variable name for the site/blog name (title)
+#: humanstxt.php:564
+msgid "wp-title"
+msgstr "wp-title"
+
+#: humanstxt.php:564
+msgid "Name (title) of site/blog"
+msgstr "Nama (judul) situs/blog"
+
+#. translators: variable name for the site/blog tagline (description)
+#: humanstxt.php:565
+msgid "wp-tagline"
+msgstr "wp-tagline"
+
+#: humanstxt.php:565
+msgid "Tagline (description) of site/blog"
+msgstr "Slogan (deskripsi) situs/blog"
+
+#. translators: variable name for the number of published posts
+#: humanstxt.php:566
+msgid "wp-posts"
+msgstr "wp-posts"
+
+#: humanstxt.php:566
+msgid "Number of published posts"
+msgstr "Jumlah tulisan telah terbit"
+
+#. translators: variable name for the number of published pages
+#: humanstxt.php:567
+msgid "wp-pages"
+msgstr "wp-pages"
+
+#: humanstxt.php:567
+msgid "Number of published pages"
+msgstr "Jumlah halaman telah terbit"
+
+#. translators: variable name for the author list
+#: humanstxt.php:568
+msgid "wp-authors"
+msgstr "wp-authors"
+
+#: humanstxt.php:568
+msgid "Active authors and their contact details"
+msgstr "Penulis aktif beserta informasi kontak mereka"
+
+#. translators: variable name for the "last modified" timestamp
+#: humanstxt.php:569
+msgid "wp-lastupdate"
+msgstr "wp-lastupdate"
+
+#: humanstxt.php:569
+msgid "Date of last modified post/page"
+msgstr "Tanggal tulisan/halaman terakhir dimodifikasi"
+
+#. translators: variable name for WordPress languages(s)
+#: humanstxt.php:570
+msgid "wp-language"
+msgstr "wp-language"
+
+#: humanstxt.php:570
+msgid "WordPress language(s)"
+msgstr "Bahasa-bahasa WordPress"
+
+#. translators: variable name for WordPress timezone
+#: humanstxt.php:571
+msgid "wp-timezone"
+msgstr "wp-timezone"
+
+#: humanstxt.php:571
+msgid "WordPress timezone"
+msgstr "Zona waktu WordPress"
+
+#. translators: variable name for the installed WordPress version
+#: humanstxt.php:572
+msgid "wp-version"
+msgstr "wp-version"
+
+#: humanstxt.php:572
+msgid "Installed WordPress version"
+msgstr "Versi WordPress yang terpasang"
+
+#. translators: variable name for the encoding (charset) used by WordPress
+#: humanstxt.php:573
+msgid "wp-charset"
+msgstr "wp-charset"
+
+#: humanstxt.php:573
+msgid "Encoding used for pages and feeds"
+msgstr "Pengkodean yang digunakan pada halaman dan umpan"
+
+#. translators: variable name for server timezone
+#: humanstxt.php:575
+msgid "server-timezone"
+msgstr "server-timezone"
+
+#: humanstxt.php:575
+msgid "Server timezone"
+msgstr "Zona waktu Server"
+
+#. translators: variable name for server ip address
+#: humanstxt.php:576
+msgid "server-ip"
+msgstr "server-ip"
+
+#: humanstxt.php:576
+msgid "Server IP address"
+msgstr "Alamat IP Server"
+
+#. translators: variable name for operating system name
+#: humanstxt.php:577
+msgid "server-os"
+msgstr "server-os"
+
+#: humanstxt.php:577
+msgid "Operating system name"
+msgstr "Nama sistem operasi"
+
+#. translators: variable name server identification string
+#: humanstxt.php:578
+msgid "server-identity"
+msgstr "server-identity"
+
+#: humanstxt.php:578
+msgid "Server identification"
+msgstr "Identifikasi Server"
+
+#. translators: variable name for php parser version
+#: humanstxt.php:579
+msgid "php-version"
+msgstr "php-version"
+
+#: humanstxt.php:579
+msgid "PHP parser version"
+msgstr "Versi parser PHP"
+
+#. translators: variable name for zend engine version
+#: humanstxt.php:580
+msgid "zend-version"
+msgstr "zend-version"
+
+#: humanstxt.php:580
+msgid "Zend Engine version"
+msgstr "Versi Mesin Zend"
+
+#. translators: variable name for MySQL server version
+#: humanstxt.php:581
+msgid "mysql-version"
+msgstr "mysql-version"
+
+#: humanstxt.php:581
+msgid "MySQL server version"
+msgstr "Versi server MySQL"
+
+#. translators: variable name for activated WordPress plugins
+#: humanstxt.php:583
+msgid "wp-plugins"
+msgstr "wp-plugins"
+
+#: humanstxt.php:583
+msgid "Activated WordPress plugins"
+msgstr "Plugin WordPress yang diaktifkan"
+
+#. translators: variable name for the summary of the active WordPress theme
+#: humanstxt.php:584
+msgid "wp-theme"
+msgstr "wp-theme"
+
+#: humanstxt.php:584
+msgid "Summary of the active WordPress theme"
+msgstr "Ringkasan tema WordPress yang aktif"
+
+#. translators: variable name for the name of the active WordPress theme
+#: humanstxt.php:585
+msgid "wp-theme-name"
+msgstr "wp-theme-name"
+
+#: humanstxt.php:585
+msgid "Name of the active theme"
+msgstr "Nama tema yang aktif"
+
+#. translators: variable name for the version of the active WordPress theme
+#: humanstxt.php:586
+msgid "wp-theme-version"
+msgstr "wp-theme-version"
+
+#: humanstxt.php:586
+msgid "Version of the active theme"
+msgstr "Versi tema yang aktif"
+
+#. translators: variable name for the author name of the active WordPress theme
+#: humanstxt.php:587
+msgid "wp-theme-author"
+msgstr "wp-theme-author"
+
+#: humanstxt.php:587
+msgid "Author name of the active theme"
+msgstr "Nama pembuat tema yang aktif"
+
+#. translators: variable name for the author link of the active WordPress theme
+#: humanstxt.php:588
+msgid "wp-theme-author-link"
+msgstr "wp-theme-author-link"
+
+#: humanstxt.php:588
+msgid "Author link of the active theme"
+msgstr "Taut ke pembuat tema yang aktif"
+
+#. translators: only translate the text inside angle brackets < > to keep the
+#. humans.txt international. if the variable names are translated, you may
+#. translate them here too.
+#: humanstxt.php:635
+msgid ""
+"/* the humans responsible & colophon */\n"
+"/* humanstxt.org */\n"
+"\n"
+"/* TEAM */\n"
+"\t<your title>: <your name>\n"
+"\tSite: <website url>\n"
+"\tTwitter: <@username>\n"
+"\tLocation: <city, country>\n"
+"\n"
+"\t\t[...]\n"
+"\n"
+"/* THANKS */\n"
+"\t<name>: <link, email, @twittername, ...>\n"
+"\n"
+"\t\t[...]\n"
+"\n"
+"/* SITE */\n"
+"\tLast update: $wp-lastupdate$\n"
+"\tStandards: <HTML5, CSS3, ...>\n"
+"\tCMS: WordPress $wp-version$ (running PHP $php-version$)\n"
+"\tLanguage: <English, Klingon, ...>\n"
+"\tComponents: <jQuery, Typekit, Modernizr, ...>\n"
+"\tIDE: <Coda, Zend Studio, Photoshop, Terminal, ...>\n"
+msgstr ""
+"/* the humans responsible & colophon */\n"
+"/* humanstxt.org */\n"
+"\n"
+"/* TEAM */\n"
+"\t<gelar Anda>: <nama Anda>\n"
+"\tSite: <url situs web>\n"
+"\tTwitter: <@namapengguna>\n"
+"\tLocation: <kota, negara>\n"
+"\n"
+"\t\t[...]\n"
+"\n"
+"/* THANKS */\n"
+"\t<nama>: <taut, email, @namatwitter, ...>\n"
+"\n"
+"\t\t[...]\n"
+"\n"
+"/* SITE */\n"
+"\tLast update: $wp-lastupdate$\n"
+"\tStandard: <HTML5, CSS3, ...>\n"
+"\tCMS: WordPress $wp-version$ (PHP $php-version$)\n"
+"\tLanguage: <Indonesian, English, Klingon, ...>\n"
+"\tComponents: <jQuery, Typekit, Modernizr, ...>\n"
+"\tIDE: <Coda, Zend Studio, Photoshop, Terminal, ...>\n"
+
+#: options.php:122
+msgid "Please update your WordPress installation."
+msgstr "Silahkan perbarui instalasi WordPress Anda"
+
+#: options.php:123
+msgid "Humans TXT %1$s requires WordPress %2$s or higher."
+msgstr "Humans TXT %1$s memerlukan WordPress %2$s atau lebih tinggi."
+
+#. Plugin Name of the plugin/theme
+#: options.php:152 options.php:441 options.php:632
+msgid "Humans TXT"
+msgstr "Humans TXT"
+
+#: options.php:183
+msgid "What is the humans.txt?"
+msgstr "Apa itu humans.txt?"
+
+#: options.php:184
+msgid ""
+"It's an initiative for knowing the people behind a website. It's a TXT file "
+"in the site root that contains information about the humans who have "
+"contributed to the website."
+msgstr ""
+"Adalah sebuah inisiatif untuk mengenal orang-orang di balik sebuah situs "
+"web. Merupakan sebuah berkas TXT pada direktori akar situs yang mengandung "
+"informasi mengenai orang-orang yang telah berkontribusi untuk situs web "
+"tersebut."
+
+#: options.php:188
+msgid "Who should I mention?"
+msgstr "Siapa saja yang sebaiknya saya sebut?"
+
+#: options.php:189
+msgid ""
+"Whoever you want to, provided they wish you to do so. You can mention the "
+"developer, the designer, the copywriter, the webmaster, the editor, ... "
+"anyone who contributed to the website."
+msgstr ""
+"Siapa saja yang Anda inginkan, dengan catatan mereka memperbolehkannya. Anda "
+"dapat menyebutkan para pengembang, desainer, juru tulis, webmaster, "
+"penyunting, ... siapa saja yang telah berkontribusi pada situs web ini."
+
+#: options.php:193
+msgid "How should I format it?"
+msgstr "Bagaimana sebaiknya saya menyusunnya?"
+
+#: options.php:194
+msgid ""
+"However you want, just make sure humans can easily read it. For some "
+"inspiration check the humans.txt of <a "
+"href=\"http://humanstxt.org/humans.txt\" rel=\"external\">humanstxt.org</a> "
+"or <a href=\"http://html5boilerplate.com/humans.txt\" "
+"rel=\"external\">html5boilerplate.com</a>."
+msgstr ""
+"Sebagaimana Anda mau, hanya tolong pastikan orang lain dapat membacanya "
+"dengan mudah. Sebagai bahan inspirasi silahkan periksa humans.txt dari <a "
+"href=\"http://humanstxt.org/humans.txt\" rel=\"external\">humanstxt.org</a> "
+"atau <a href=\"http://html5boilerplate.com/humans.txt\" "
+"rel=\"external\">html5boilerplate.com</a>."
+
+#: options.php:197
+msgid ""
+"Variables can be used to show dynamic content in your humans.txt file. You "
+"can show your visitors for example the amount of published posts, a list of "
+"activated plugins, the name of the current theme or the installed WordPress "
+"version. Hover your cursor over a variable to see a preview of it."
+msgstr ""
+"Variabel-variabel dapat digunakan untuk menampilkan konten dinamis pada "
+"berkas humans.txt Anda. Anda dapat menampilkan jumlah tulisan yang telah "
+"terbit, daftar plugin yang aktif, nama tema yang digunakan atau versi "
+"WordPress yang terpasang. Layangkan kursor Anda pada sebuah variabel untuk "
+"pratampil."
+
+#: options.php:200
+msgid "Humans TXT Website"
+msgstr "Situs web Humans TXT"
+
+#: options.php:201
+msgid "Plugin Homepage"
+msgstr "Situs Utama Plugin"
+
+#: options.php:202
+msgid "Plugin Support Forum"
+msgstr "Forum Penyokong Plugin"
+
+#: options.php:207 options.php:497 options.php:500 options.php:547
+#: options.php:554
+msgid "Humans TXT File"
+msgstr "Berkas Humans TXT"
+
+#: options.php:208 options.php:211 options.php:587
+msgid "Variables"
+msgstr "Variabel"
+
+#: options.php:364
+msgid ""
+"Humans TXT includes the functionality of %1$s. Please deactivate %1$s to "
+"avoid plugin conflicts."
+msgstr ""
+"Humans TXT mengikutsertakan fungsi %1$s. Silahkan nonaktifkan %1$s untuk "
+"menghindari bentrokan plugin."
+
+#: options.php:443
+msgid "Please read the FAQ..."
+msgstr "Silahkan baca FAQ..."
+
+#: options.php:448
+msgid "Revision restored."
+msgstr "Revisi dipulihkan."
+
+#: options.php:450
+msgid "Import successful. A backup of the original file has been created."
+msgstr "Impor berhasil. Sebuah berkasa cadangan telah diciptakan."
+
+#: options.php:452
+msgid ""
+"Error: The content has been imported, but the original file could not be "
+"renamed."
+msgstr ""
+"Galat: Konten berhasil diimpor, tetapi berkas aslinya tak dapat diubah "
+"namanya."
+
+#: options.php:454
+msgid "Error: Import failed."
+msgstr "Galat: Impor gagal."
+
+#: options.php:458
+msgid "Error: WordPress is not installed in the root of the domain."
+msgstr "Galat: WordPress tidak dipasang di akar domain."
+
+#: options.php:462
+msgid "Error: The site root already contains a physical humans.txt file."
+msgstr "Galat: Akar situs sudah mengandung berkas fisik humans.txt."
+
+#. translators: Please read the FAQ... or try to ...
+#: options.php:464
+msgid ""
+"or try to <a href=\"%s\">import and rename</a> the physical humans.txt file."
+msgstr ""
+"atau coba untuk <a href=\"%s\">mengimpor dan mengubah nama</a> berkas "
+"humans.txt secara fisik."
+
+#: options.php:468
+msgid ""
+"Error: Please <a href=\"%s\">update your permalink structure</a> to "
+"something other than the default."
+msgstr ""
+"Galat: Silahkan <a href=\"%s\">perbarui struktur permalink Anda</a> menjadi "
+"sesuatu yang lain dari bawaannya."
+
+#: options.php:480
+msgid ""
+"If you like this plugin, why not <a href=\"%s\" title=\"%s\" "
+"rel=\"external\">recommend it to others</a> by rating it?"
+msgstr ""
+"Jika Anda menyukai plugin ini, ada baiknya Anda <a href=\"%s\" title=\"%s\" "
+"rel=\"external\">rekomendasikan kepada orang lain</a> dengan menilainya?"
+
+#: options.php:480
+msgid "Rate this plugin on WordPress.org"
+msgstr "Berikan nilai untuk plugin ini pada WordPress.org"
+
+#: options.php:503
+msgid "Activate humans.txt file"
+msgstr "Aktifkan berkas humans.txt"
+
+#: options.php:506
+msgid ""
+"Adds an <link rel=\"author\"> tag to the site's <head> tag pointing to the "
+"humans.txt file."
+msgstr ""
+"Tambahkan sebuah <link rel=\"author\"> tag pada situs <head> yang "
+"mengarahkan ke berkas humans.txt."
+
+#: options.php:508
+msgid "Add an author link tag to the site"
+msgstr "Tambahkan sebuah tag taut penulis/pembuat pada situs ini"
+
+#: options.php:514 options.php:517
+msgid "Editing Permissions"
+msgstr "Menyunting Perizinan"
+
+#: options.php:518
+msgid "Roles that can edit the content of the humans.txt file"
+msgstr "Peranan yang dapat menyunting isi dari berkas humans.txt"
+
+#: options.php:541
+msgid "View Humans TXT"
+msgstr "Lihat Humans TXT"
+
+#: options.php:555
+msgid ""
+"If you need a little help with your humans.txt, try the \"Help\" button at "
+"the top right of this page."
+msgstr ""
+"Jika Anda butuh sedikit bantuan dengan berkas humans.txt, coba tombol "
+"\"Bantuan\" di kanan atas halaman ini."
+
+#: options.php:566
+msgid "View Revisions"
+msgstr "Lihat Revisi"
+
+#: options.php:574
+msgid "Server"
+msgstr "Server"
+
+#: options.php:575
+msgid "Themes & Plugins"
+msgstr "Tema & Plugin"
+
+#: options.php:576
+msgid "Miscellaneous"
+msgstr "Serba neka"
+
+#. translators: Preview: Not available...
+#: options.php:594
+msgid "Not available..."
+msgstr "Tidak tersedia..."
+
+#. translators: %s: output preview of variable
+#: options.php:595
+msgid "Preview: %s"
+msgstr "Pratampil: %s"
+
+#: options.php:607
+msgid "Suggest another variable..."
+msgstr "Rekomendasikan variable lain..."
+
+#: options.php:614
+msgid "Shortcode Usage"
+msgstr "Penggunaan Kode-singkat"
+
+#: options.php:615
+msgid ""
+"You can use the <code>[humanstxt]</code> shortcode to display the "
+"<em>humans.txt</em> file on a page or in a post. By default, all links, "
+"email addresses and Twitter account names will be converted into clickable "
+"links and email addresses will be encoded to block spam bots. <a href=\"%s\" "
+"rel=\"external\">Of course you can customize it...</a>"
+msgstr ""
+"Anda dapat menggunakan kode-singkat <code>[humanstxt]</code> untuk "
+"menampilkan berkas <em>humans.txt</em> pada sebuah halaman atau tulisan. "
+"Secara bawaan, semua taut, alamat surel (email) dan nama akun Twitter akan "
+"dikonversikan menjadi tautan yang dapat diklik dan alamat surel (email) akan "
+"dikodekan untuk memblokir bot spam. <a href=\"%s\" rel=\"external\">Tentunya "
+"Anda dapat menyesuaikannya...</a>"
+
+#. translators: %s: revision date
+#: options.php:642
+msgid "Revision created on %s"
+msgstr "Revisi diciptakan pada %s"
+
+#: options.php:644
+msgid "Restore Revision"
+msgstr "Memulihkan Revisi"
+
+#: options.php:649
+msgid "You cannot compare a revision to itself."
+msgstr "Anda tidak dapat membandingkan sebuah revisi dengan dirinya sendiri."
+
+#. translators: %s: number of stored revisions
+#: options.php:732
+msgid ""
+"WordPress is storing the last %s revisions of your <em>humans.txt</em> file."
+msgstr ""
+"WordPress menyimpan %s revisi terakhir dari berkas <em>humans.txt</em> Anda."
+
+#. Description of the plugin/theme
+msgid ""
+"Credit the people behind your website in your <strong>humans.txt</strong> "
+"file. Easy to edit, directly within WordPress."
+msgstr ""
+"Hargai orang-orang di belakang situs web Anda dalam berkas "
+"<strong>humans.txt</strong> Anda. Mudah untuk disunting, langsung dari dalam "
+"WordPress."

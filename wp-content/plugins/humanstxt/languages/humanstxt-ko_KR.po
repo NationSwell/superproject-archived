@@ -1,0 +1,535 @@
+# Korean translation of the Humans TXT WordPress plugin
+# This file is distributed under the same license as the Humans TXT plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Humans TXT 1.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/humanstxt\n"
+"POT-Creation-Date: 2011-11-11 09:01+0000\n"
+"PO-Revision-Date: 2011-11-16 01:54+0000\n"
+"Last-Translator: unfusion <Unknown>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2011-11-16 03:00+0000\n"
+"X-Generator: Launchpad (build 14291)\n"
+"X-Poedit-Country: KOREA, REPUBLIC OF\n"
+"X-Poedit-Language: Korean\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#. translators: variable name for the site/blog name (title)
+#: humanstxt.php:564
+msgid "wp-title"
+msgstr "wp-title"
+
+#: humanstxt.php:564
+msgid "Name (title) of site/blog"
+msgstr "사이트/블로그의 제목"
+
+#. translators: variable name for the site/blog tagline (description)
+#: humanstxt.php:565
+msgid "wp-tagline"
+msgstr "wp-tagline"
+
+#: humanstxt.php:565
+msgid "Tagline (description) of site/blog"
+msgstr "사이트/블로그에 대한 설명 (Tagline)"
+
+#. translators: variable name for the number of published posts
+#: humanstxt.php:566
+msgid "wp-posts"
+msgstr "wp-posts"
+
+#: humanstxt.php:566
+msgid "Number of published posts"
+msgstr "발행된 포스트의 갯수"
+
+#. translators: variable name for the number of published pages
+#: humanstxt.php:567
+msgid "wp-pages"
+msgstr "wp-pages"
+
+#: humanstxt.php:567
+msgid "Number of published pages"
+msgstr "발행된 페이지의 갯수"
+
+#. translators: variable name for the author list
+#: humanstxt.php:568
+msgid "wp-authors"
+msgstr "wp-authors"
+
+#: humanstxt.php:568
+msgid "Active authors and their contact details"
+msgstr "블로그의 작성자와 상세한 연락처"
+
+#. translators: variable name for the "last modified" timestamp
+#: humanstxt.php:569
+msgid "wp-lastupdate"
+msgstr "wp-lastupdate"
+
+#: humanstxt.php:569
+msgid "Date of last modified post/page"
+msgstr "포스트/페이지가 마지막으로 업데이트된 날짜."
+
+#. translators: variable name for WordPress languages(s)
+#: humanstxt.php:570
+msgid "wp-language"
+msgstr "wp-language"
+
+#: humanstxt.php:570
+msgid "WordPress language(s)"
+msgstr "워드프레스 언어"
+
+#. translators: variable name for WordPress timezone
+#: humanstxt.php:571
+msgid "wp-timezone"
+msgstr "wp-timezone"
+
+#: humanstxt.php:571
+msgid "WordPress timezone"
+msgstr "워드프레스 시간대(Timezone)"
+
+#. translators: variable name for the installed WordPress version
+#: humanstxt.php:572
+msgid "wp-version"
+msgstr "wp-version"
+
+#: humanstxt.php:572
+msgid "Installed WordPress version"
+msgstr "설치된 워드프레스의 버전"
+
+#. translators: variable name for the encoding (charset) used by WordPress
+#: humanstxt.php:573
+msgid "wp-charset"
+msgstr "wp-charset"
+
+#: humanstxt.php:573
+msgid "Encoding used for pages and feeds"
+msgstr "페이지와 피드의 인코딩에 사용된 Character Set"
+
+#. translators: variable name for server timezone
+#: humanstxt.php:575
+msgid "server-timezone"
+msgstr "server-timezone"
+
+#: humanstxt.php:575
+msgid "Server timezone"
+msgstr "서버 시간대(Timezone)"
+
+#. translators: variable name for server ip address
+#: humanstxt.php:576
+msgid "server-ip"
+msgstr "server-ip"
+
+#: humanstxt.php:576
+msgid "Server IP address"
+msgstr "서버 IP 주소"
+
+#. translators: variable name for operating system name
+#: humanstxt.php:577
+msgid "server-os"
+msgstr "server-os"
+
+#: humanstxt.php:577
+msgid "Operating system name"
+msgstr "운영체제명"
+
+#. translators: variable name server identification string
+#: humanstxt.php:578
+msgid "server-identity"
+msgstr "server-identity"
+
+#: humanstxt.php:578
+msgid "Server identification"
+msgstr "서버 종류"
+
+#. translators: variable name for php parser version
+#: humanstxt.php:579
+msgid "php-version"
+msgstr "php-version"
+
+#: humanstxt.php:579
+msgid "PHP parser version"
+msgstr "PHP 버전"
+
+#. translators: variable name for zend engine version
+#: humanstxt.php:580
+msgid "zend-version"
+msgstr "zend-version"
+
+#: humanstxt.php:580
+msgid "Zend Engine version"
+msgstr "Zend 엔진 버전"
+
+#. translators: variable name for MySQL server version
+#: humanstxt.php:581
+msgid "mysql-version"
+msgstr "mysql-version"
+
+#: humanstxt.php:581
+msgid "MySQL server version"
+msgstr "MySQL 서버 버전"
+
+#. translators: variable name for activated WordPress plugins
+#: humanstxt.php:583
+msgid "wp-plugins"
+msgstr "wp-plugins"
+
+#: humanstxt.php:583
+msgid "Activated WordPress plugins"
+msgstr "활성화된 워드프레스 플러그인"
+
+#. translators: variable name for the summary of the active WordPress theme
+#: humanstxt.php:584
+msgid "wp-theme"
+msgstr "wp-theme"
+
+#: humanstxt.php:584
+msgid "Summary of the active WordPress theme"
+msgstr "사용중인 테마에 대한 정보"
+
+#. translators: variable name for the name of the active WordPress theme
+#: humanstxt.php:585
+msgid "wp-theme-name"
+msgstr "wp-theme-name"
+
+#: humanstxt.php:585
+msgid "Name of the active theme"
+msgstr "사용중인 테마의 이름"
+
+#. translators: variable name for the version of the active WordPress theme
+#: humanstxt.php:586
+msgid "wp-theme-version"
+msgstr "wp-theme-version"
+
+#: humanstxt.php:586
+msgid "Version of the active theme"
+msgstr "사용중인 테마의 버전"
+
+#. translators: variable name for the author name of the active WordPress theme
+#: humanstxt.php:587
+msgid "wp-theme-author"
+msgstr "wp-theme-author"
+
+#: humanstxt.php:587
+msgid "Author name of the active theme"
+msgstr "사용중인 테마의 제작자"
+
+#. translators: variable name for the author link of the active WordPress theme
+#: humanstxt.php:588
+msgid "wp-theme-author-link"
+msgstr "wp-theme-author-link"
+
+#: humanstxt.php:588
+msgid "Author link of the active theme"
+msgstr "사용중인 테마의 제작자 링크"
+
+#. translators: only translate the text inside angle brackets < > to keep the
+#. humans.txt international. if the variable names are translated, you may
+#. translate them here too.
+#: humanstxt.php:635
+msgid ""
+"/* the humans responsible & colophon */\n"
+"/* humanstxt.org */\n"
+"\n"
+"/* TEAM */\n"
+"\t<your title>: <your name>\n"
+"\tSite: <website url>\n"
+"\tTwitter: <@username>\n"
+"\tLocation: <city, country>\n"
+"\n"
+"\t\t[...]\n"
+"\n"
+"/* THANKS */\n"
+"\t<name>: <link, email, @twittername, ...>\n"
+"\n"
+"\t\t[...]\n"
+"\n"
+"/* SITE */\n"
+"\tLast update: $wp-lastupdate$\n"
+"\tStandards: <HTML5, CSS3, ...>\n"
+"\tCMS: WordPress $wp-version$ (running PHP $php-version$)\n"
+"\tLanguage: <English, Klingon, ...>\n"
+"\tComponents: <jQuery, Typekit, Modernizr, ...>\n"
+"\tIDE: <Coda, Zend Studio, Photoshop, Terminal, ...>\n"
+msgstr ""
+"/* the humans responsible & colophon */\n"
+"/* humanstxt.org */\n"
+"\n"
+"/* TEAM */\n"
+"\t<your title>: <your name>\n"
+"\tSite: <website url>\n"
+"\tTwitter: <@username>\n"
+"\tLocation: <city, country>\n"
+"\n"
+"\t\t[...]\n"
+"\n"
+"/* THANKS */\n"
+"\t<name>: <link, email, @twittername, ...>\n"
+"\n"
+"\t\t[...]\n"
+"\n"
+"/* SITE */\n"
+"\tLast update: $wp-lastupdate$\n"
+"\tStandards: <HTML5, CSS3, ...>\n"
+"\tCMS: WordPress $wp-version$ (running PHP $php-version$)\n"
+"\tLanguage: <English, Klingon, ...>\n"
+"\tComponents: <jQuery, Typekit, Modernizr, ...>\n"
+"\tIDE: <Coda, Zend Studio, Photoshop, Terminal, ...>\n"
+
+#: options.php:122
+msgid "Please update your WordPress installation."
+msgstr "사용하고 계신 워드프레스를 상위 버전으로 업데이트 해주세요."
+
+#: options.php:123
+msgid "Humans TXT %1$s requires WordPress %2$s or higher."
+msgstr "Humans TXT %1$s 이 동작하기 위해서는 WordPress %2$s 이상의 버전이 필요합니다."
+
+#. Plugin Name of the plugin/theme
+#: options.php:152 options.php:441 options.php:632
+msgid "Humans TXT"
+msgstr "Humans TXT"
+
+#: options.php:183
+msgid "What is the humans.txt?"
+msgstr "humans.txt 란?"
+
+#: options.php:184
+msgid ""
+"It's an initiative for knowing the people behind a website. It's a TXT file "
+"in the site root that contains information about the humans who have "
+"contributed to the website."
+msgstr ""
+"이것은 웹사이트 운영자와 참여자 대한 정보를 담은 TXT 파일을 사이트의 루트에 놓아, 웹사이트의 뒷편에서 활동하는 사람들에 대해 알 수 "
+"있도록 하는 하나의 제안입니다."
+
+#: options.php:188
+msgid "Who should I mention?"
+msgstr "어떤 사람들에 대해 언급해야 하나요?"
+
+#: options.php:189
+msgid ""
+"Whoever you want to, provided they wish you to do so. You can mention the "
+"developer, the designer, the copywriter, the webmaster, the editor, ... "
+"anyone who contributed to the website."
+msgstr ""
+"그들이 원한다면 누구라도 상관없습니다. 개발자, 디자이너, 카피라이터, 웹마스터, 편집자,... 웹사이트에 대해 참여했다면 누구라도 "
+"괜찮습니다."
+
+#: options.php:193
+msgid "How should I format it?"
+msgstr "어떤 양식을 사용해야 하나요?"
+
+#: options.php:194
+msgid ""
+"However you want, just make sure humans can easily read it. For some "
+"inspiration check the humans.txt of <a "
+"href=\"http://humanstxt.org/humans.txt\" rel=\"external\">humanstxt.org</a> "
+"or <a href=\"http://html5boilerplate.com/humans.txt\" "
+"rel=\"external\">html5boilerplate.com</a>."
+msgstr ""
+"사람들이 쉽게 읽을 수 있다면 어떤 양식을 사용해도 상관없습니다. <a "
+"href=\"http://humanstxt.org/humans.txt\" rel=\"external\">humanstxt.org</a> "
+"나 <a href=\"http://html5boilerplate.com/humans.txt\" "
+"rel=\"external\">html5boilerplate.com</a> 의 humans.txt 파일을 참조하시면 도움이 되실 겁니다."
+
+#: options.php:197
+msgid ""
+"Variables can be used to show dynamic content in your humans.txt file. You "
+"can show your visitors for example the amount of published posts, a list of "
+"activated plugins, the name of the current theme or the installed WordPress "
+"version. Hover your cursor over a variable to see a preview of it."
+msgstr ""
+"변수들은 humans.txt 파일에서 유동적인 컨텐츠들을 보여주는데 사용됩니다. 예를 들면 발행된 포스트의 갯수나 사용하고 있는 "
+"플러그인의 목록, 현재의 사용 중인 테마명이나 설치된 워드프레스 버전 같은 것들입니다.  커서를 변수 위에 올려놓으면 미리 내용을 확인할 "
+"수 있습니다."
+
+#: options.php:200
+msgid "Humans TXT Website"
+msgstr "Human TXT 웹사이트"
+
+#: options.php:201
+msgid "Plugin Homepage"
+msgstr "플러그인 홈페이지"
+
+#: options.php:202
+msgid "Plugin Support Forum"
+msgstr "플러그인 지원 포럼"
+
+#: options.php:207 options.php:497 options.php:500 options.php:547
+#: options.php:554
+msgid "Humans TXT File"
+msgstr "Humans TXT 파일"
+
+#: options.php:208 options.php:211 options.php:587
+msgid "Variables"
+msgstr "변수들"
+
+#: options.php:364
+msgid ""
+"Humans TXT includes the functionality of %1$s. Please deactivate %1$s to "
+"avoid plugin conflicts."
+msgstr ""
+"Humans TXT 는 %1$s 와 유사한 기능을 포함하고 있습니다. 플러그인의 충돌 방지를 위해 %1$s 를 비활성화 해주십시오."
+
+#: options.php:443
+msgid "Please read the FAQ..."
+msgstr "FAQ 항목을 확인해 주세요..."
+
+#: options.php:448
+msgid "Revision restored."
+msgstr "Revision 이 복원되었습니다."
+
+#: options.php:450
+msgid "Import successful. A backup of the original file has been created."
+msgstr "가져오기 성공. 원본 파일의 백업이 생성 되었습니다."
+
+#: options.php:452
+msgid ""
+"Error: The content has been imported, but the original file could not be "
+"renamed."
+msgstr "Error : 컨텐츠를 불러왔지만 원본 파일의 이름 변경이 불가능합니다."
+
+#: options.php:454
+msgid "Error: Import failed."
+msgstr "Error : 가져오기 실패."
+
+#: options.php:458
+msgid "Error: WordPress is not installed in the root of the domain."
+msgstr "Error: 워드프레스가 도메인 루트에 인스톨되어 있지 않습니다."
+
+#: options.php:462
+msgid "Error: The site root already contains a physical humans.txt file."
+msgstr "Error: 사이트의 루트에 이미 humans.txt 파일이 존재하고 있습니다."
+
+#. translators: Please read the FAQ... or try to ...
+#: options.php:464
+msgid ""
+"or try to <a href=\"%s\">import and rename</a> the physical humans.txt file."
+msgstr "또는 humans.txt 파일<a href=\"%s\"> 가져오기와 이름변경</a> 을 시도해 보십시오."
+
+#: options.php:468
+msgid ""
+"Error: Please <a href=\"%s\">update your permalink structure</a> to "
+"something other than the default."
+msgstr ""
+"Error: 현재 사용하고 있는 퍼머링크 구조를 기본 형태가 아닌 다른 것으로 <a href=\"%s\">변경해</a> 주십시오."
+
+#: options.php:480
+msgid ""
+"If you like this plugin, why not <a href=\"%s\" title=\"%s\" "
+"rel=\"external\">recommend it to others</a> by rating it?"
+msgstr ""
+"이 플러그인이 맘에 드신다면, <br />평점을 통해 <a href=\\\"%s\\\" title=\\\"%s\\\" rel=\\"
+"\"external\\\">다른 이들에게 추천해</a> <br />보시는 건 어떨까요?"
+
+#: options.php:480
+msgid "Rate this plugin on WordPress.org"
+msgstr "WordPress.org 에서 이 플러그인 평점 매기기."
+
+#: options.php:503
+msgid "Activate humans.txt file"
+msgstr "humans.txt 파일 활성화하기."
+
+#: options.php:506
+msgid ""
+"Adds an <link rel=\"author\"> tag to the site's <head> tag pointing to the "
+"humans.txt file."
+msgstr ""
+"humans.txt 파일을 가리키는 <link rel=\"author\"> tag to the site's <head> tag 을 "
+"추가합니다."
+
+#: options.php:508
+msgid "Add an author link tag to the site"
+msgstr "author link tag 을 사이트에 추가합니다."
+
+#: options.php:514 options.php:517
+msgid "Editing Permissions"
+msgstr "권한 설정"
+
+#: options.php:518
+msgid "Roles that can edit the content of the humans.txt file"
+msgstr "humans.txt 파일을 편집할 수 있는 사용자."
+
+#: options.php:541
+msgid "View Humans TXT"
+msgstr "Humans TXT 보기"
+
+#: options.php:555
+msgid ""
+"If you need a little help with your humans.txt, try the \"Help\" button at "
+"the top right of this page."
+msgstr "만약 humans.txt 파일에 대한 도움이 필요하다면 이 페이지 우측 상단에 있는 \"Help\" 버튼을 눌러보세요."
+
+#: options.php:566
+msgid "View Revisions"
+msgstr "Revision 보기"
+
+#: options.php:574
+msgid "Server"
+msgstr "서버"
+
+#: options.php:575
+msgid "Themes & Plugins"
+msgstr "테마와 플러그인"
+
+#: options.php:576
+msgid "Miscellaneous"
+msgstr "기타"
+
+#. translators: Preview: Not available...
+#: options.php:594
+msgid "Not available..."
+msgstr "사용할 수 없습니다..."
+
+#. translators: %s: output preview of variable
+#: options.php:595
+msgid "Preview: %s"
+msgstr "미리보기: %s"
+
+#: options.php:607
+msgid "Suggest another variable..."
+msgstr "다른 변수 제안하기"
+
+#: options.php:614
+msgid "Shortcode Usage"
+msgstr "Shortcode 사용법"
+
+#: options.php:615
+msgid ""
+"You can use the <code>[humanstxt]</code> shortcode to display the "
+"<em>humans.txt</em> file on a page or in a post. By default, all links, "
+"email addresses and Twitter account names will be converted into clickable "
+"links and email addresses will be encoded to block spam bots. <a href=\"%s\" "
+"rel=\"external\">Of course you can customize it...</a>"
+msgstr ""
+"<code>[humanstxt]</code> 형태의 shortcode 를 써서 <em>humans.txt</em> 파일의 내용을 포스트나 "
+"페이지에 출력할 수 있습니다. 기본적으로 모든 링크, 이메일 주소 그리고 트위터 계정은 클릭 가능한 형태의 링크로 표시되고 이메일 주소는 "
+"스팸 봇을 막기 위해 인코딩 됩니다.  <a href=\"%s\" rel=\"external\">물론 변경하실 수도 있습니다.</a>"
+
+#. translators: %s: revision date
+#: options.php:642
+msgid "Revision created on %s"
+msgstr "%s 에 Revision 생성"
+
+#: options.php:644
+msgid "Restore Revision"
+msgstr "Revision 복원"
+
+#: options.php:649
+msgid "You cannot compare a revision to itself."
+msgstr "변경사항이 없어 Revision을 비교할 수 없습니다."
+
+#. translators: %s: number of stored revisions
+#: options.php:732
+msgid ""
+"WordPress is storing the last %s revisions of your <em>humans.txt</em> file."
+msgstr "워드프레스가 <em>humans.txt</em> 파일의 마지막 %s revisions 을 저장했습니다."
+
+#. Description of the plugin/theme
+msgid ""
+"Credit the people behind your website in your <strong>humans.txt</strong> "
+"file. Easy to edit, directly within WordPress."
+msgstr ""
+"<strong>humans.txt</strong> 파일에 웹사이트에 참여한 사람의 이름을 남겨보세요. 워드프레스 안에서 직접, 쉽게 "
+"편집할 수 있습니다."

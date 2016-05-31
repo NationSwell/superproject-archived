@@ -1,0 +1,376 @@
+# Romanian translation of the Humans TXT WordPress plugin
+# This file is distributed under the same license as the Humans TXT plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Humans TXT 1.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/humanstxt\n"
+"POT-Creation-Date: 2011-08-12 13:13:19+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2011-08-26 22:23+0200\n"
+"Last-Translator: Anunturi <contact@jibo.ro>\n"
+"Language-Team: Anunturi <contact@jibo.ro>\n"
+"X-Poedit-Language: Romanian\n"
+"X-Poedit-Country: ROMANIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#. translators: variable name for the site/blog name (title)
+#: humanstxt.php:543
+msgid "wp-title"
+msgstr "wp-title"
+
+#: humanstxt.php:543
+msgid "Name (title) of site/blog"
+msgstr "Nume (titlul) site-ului/blog-ului"
+
+#. translators: variable name for the site/blog tagline (description)
+#: humanstxt.php:544
+msgid "wp-tagline"
+msgstr "wp-tagline"
+
+#: humanstxt.php:544
+msgid "Tagline (description) of site/blog"
+msgstr "Motto (descrierea) site-ului/blog-ului"
+
+#. translators: variable name for the number of published posts
+#: humanstxt.php:545
+msgid "wp-posts"
+msgstr "wp-posts"
+
+#: humanstxt.php:545
+msgid "Number of published posts"
+msgstr "Numarul articolelor publicate"
+
+#. translators: variable name for the number of published pages
+#: humanstxt.php:546
+msgid "wp-pages"
+msgstr "wp-pages"
+
+#: humanstxt.php:546
+msgid "Number of published pages"
+msgstr "Numarul paginilor publicate"
+
+#. translators: variable name for the "last modified" timestamp
+#: humanstxt.php:547
+msgid "wp-lastupdate"
+msgstr "wp-lastupdate"
+
+#: humanstxt.php:547
+msgid "Date of last modified post/page"
+msgstr "Data modificarii articolelor/paginilor"
+
+#. translators: variable name for the author list
+#: humanstxt.php:548
+msgid "wp-authors"
+msgstr "wp-authors"
+
+#: humanstxt.php:548
+msgid "Active authors and their contact details"
+msgstr "Autorii activi si datele lor de contact"
+
+#. translators: variable name for WordPress languages(s)
+#: humanstxt.php:549
+msgid "wp-language"
+msgstr "wp-language"
+
+#: humanstxt.php:549
+msgid "WordPress language(s)"
+msgstr "Limba WordPress"
+
+#. translators: variable name for activated WordPress plugins
+#: humanstxt.php:550
+msgid "wp-plugins"
+msgstr "wp-plugins"
+
+#: humanstxt.php:550
+msgid "Activated WordPress plugins"
+msgstr "Plugin-uri WordPress activate"
+
+#. translators: variable name for the encoding (charset) used by WordPress
+#: humanstxt.php:551
+msgid "wp-charset"
+msgstr "wp-charset"
+
+#: humanstxt.php:551
+msgid "Encoding used for pages and feeds"
+msgstr "Codificarea utilizata pentru pagini si fluxuri"
+
+#. translators: variable name for the installed WordPress version
+#: humanstxt.php:552
+msgid "wp-version"
+msgstr "wp-version"
+
+#: humanstxt.php:552
+msgid "Installed WordPress version"
+msgstr "Versiunea WordPress instalata"
+
+#. translators: variable name for the running PHP parser version
+#: humanstxt.php:553
+msgid "php-version"
+msgstr "php-version"
+
+#: humanstxt.php:553
+msgid "Running PHP parser version"
+msgstr "Versiunea PHP instalata"
+
+#. translators: variable name for the summary of the active WordPress theme
+#: humanstxt.php:554
+msgid "wp-theme"
+msgstr "wp-theme"
+
+#: humanstxt.php:554
+msgid "Summary of the active WordPress theme"
+msgstr "Detalii despre tema WordPress activa"
+
+#. translators: variable name for the name of the active WordPress theme
+#: humanstxt.php:555
+msgid "wp-theme-name"
+msgstr "wp-theme-name"
+
+#: humanstxt.php:555
+msgid "Name of the active theme"
+msgstr "Numele temei active"
+
+#. translators: variable name for the version of the active WordPress theme
+#: humanstxt.php:556
+msgid "wp-theme-version"
+msgstr "wp-theme-version"
+
+#: humanstxt.php:556
+msgid "Version of the active theme"
+msgstr "Versiunea temei active"
+
+#. translators: variable name for the author name of the active WordPress theme
+#: humanstxt.php:557
+msgid "wp-theme-author"
+msgstr "wp-theme-author"
+
+#: humanstxt.php:557
+msgid "Author name of the active theme"
+msgstr "Numele autorului temei activate"
+
+#. translators: variable name for the author link of the active WordPress theme
+#: humanstxt.php:558
+msgid "wp-theme-author-link"
+msgstr "wp-theme-author-link"
+
+#: humanstxt.php:558
+msgid "Author link of the active theme"
+msgstr "Adresa URL a autorului temei active"
+
+#. translators: only translate the text inside angle brackets < > to keep the
+#. humans.txt international. if the variable names are translated, you may
+#. translate them here too.
+#: humanstxt.php:605
+msgid ""
+"/* the humans responsible & colophon */\n"
+"/* humanstxt.org */\n"
+"\n"
+"/* TEAM */\n"
+"\t<your title>: <your name>\n"
+"\tSite: <website url>\n"
+"\tTwitter: <@username>\n"
+"\tLocation: <city, country>\n"
+"\n"
+"\t\t[...]\n"
+"\n"
+"/* THANKS */\n"
+"\t<name>: <link, email, @twittername, ...>\n"
+"\n"
+"\t\t[...]\n"
+"\n"
+"/* SITE */\n"
+"\tLast update: $wp-lastupdate$\n"
+"\tStandards: <HTML5, CSS3, ...>\n"
+"\tCMS: WordPress $wp-version$ (running PHP $php-version$)\n"
+"\tLanguage: <English, Klingon, ...>\n"
+"\tComponents: <jQuery, Typekit, Modernizr, ...>\n"
+"\tIDE: <Coda, Zend Studio, Photoshop, Terminal, ...>\n"
+msgstr ""
+"/* the humans responsible & colophon */\n"
+"/* humanstxt.org */\n"
+"\n"
+"/* TEAM */\n"
+"\t<titlul tau>: <numele tau>\n"
+"\tSite: <adresa site>\n"
+"\tTwitter: <@utilizator>\n"
+"\tLocation: <oras, tara>\n"
+"\n"
+"\t\t[...]\n"
+"\n"
+"/* THANKS */\n"
+"\t<nume>: <adresa, email, @numetwitter, ...>\n"
+"\n"
+"\t\t[...]\n"
+"\n"
+"/* SITE */\n"
+"\tLast update: $wp-lastupdate$\n"
+"\tStandards: <HTML5, CSS3, ...>\n"
+"\tCMS: WordPress $wp-version$ (PHP $php-version$)\n"
+"\tLanguage: <English, Klingon, ...>\n"
+"\tComponents: <jQuery, Typekit, Modernizr, ...>\n"
+"\tIDE: <Coda, Zend Studio, Photoshop, Terminal, ...>\n"
+
+#: options.php:114
+msgid "Please update your WordPress installation."
+msgstr "Te rog sa actualizezi WordPress."
+
+#: options.php:115
+msgid "Humans TXT %1$s requires WordPress %2$s or higher."
+msgstr "Humans TXT %1$s necesita WordPress %2$s sau mai nou."
+
+#. Plugin Name of the plugin/theme
+#: options.php:137
+#: options.php:341
+#: options.php:493
+msgid "Humans TXT"
+msgstr "Humans TXT"
+
+#: options.php:175
+msgid "What is the humans.txt?"
+msgstr "Ce este humans.txt?"
+
+#: options.php:176
+msgid "It's an initiative for knowing the people behind a website. It's a TXT file in the site root that contains information about the humans who have contributed to the website."
+msgstr "Este o initiativa pentru a cunoaste oamenii din spatele unui website. Este un fisier cu extensia .txt plasat in radacina site-ului care contine informatii despre oamenii care au contribuit la dezvoltarea website-ului"
+
+#: options.php:181
+msgid "Who should I mention?"
+msgstr "Pe cine ar trebui sa mentionez?"
+
+#: options.php:182
+msgid "Whoever you want to, provided they wish you to do so. You can mention the developer, the designer, the copywriter, the webmaster, the editor, ... anyone who contributed to the website."
+msgstr "Pe oricine doresti, atata timp cat persoanele respective sunt de acord. Poti mentiona programatorul, designer-ul, autorul continutului, webmaster-ul, editorul, ... toata lumea care a contribuit la website."
+
+#: options.php:187
+msgid "How should I format it?"
+msgstr "Cum ar trebui formulat?"
+
+#: options.php:188
+msgid "However you want, just make sure humans can easily read it. For some inspiration check the humans.txt of <a href=\"http://humanstxt.org/humans.txt\" rel=\"external\">humanstxt.org</a> or <a href=\"http://html5boilerplate.com/humans.txt\" rel=\"external\">html5boilerplate.com</a>."
+msgstr "Oricum doresti, asigura-te doar ca oamenii pot descifra mesajul cu usurinta. Te poti inspira din fisierul humans.txt de la <a href=\"http://humanstxt.org/humans.txt\" rel=\"external\">humanstxt.org</a> sau <a href=\"http://html5boilerplate.com/humans.txt\" rel=\"external\">html5boilerplate.com</a>."
+
+#: options.php:193
+msgid "Official Humans TXT website"
+msgstr "Site-ul Humans TXT oficial"
+
+#: options.php:194
+msgid "Plugin Homepage"
+msgstr "Pagina plugin-ului"
+
+#: options.php:195
+msgid "Plugin Support Forum"
+msgstr "Forumul de support al plugin-ului"
+
+#: options.php:282
+msgid "Humans TXT includes the functionality of %1$s. Please deactivate %1$s to avoid plugin conflicts."
+msgstr "Humans TXT include functiile  %1$s. Te rog sa dezactivezi %1%s pentru a preveni conflictul cu acest plugin."
+
+#: options.php:346
+msgid "Revision restored."
+msgstr "Revizia restaurata."
+
+#: options.php:349
+msgid "Read FAQ..."
+msgstr "Citeste Intrebarile frecvente"
+
+#: options.php:352
+msgid "Error: WordPress is not installed in the root of the domain."
+msgstr "Eroare: WordPress nu este instalat in radacina site-ului."
+
+#: options.php:354
+msgid "Error: The site root already contains a physical humans.txt file."
+msgstr "Eroare: Exista deja un fisier humans.txt in radacina site-ului."
+
+#: options.php:356
+msgid "Error: Please <a href=\"%s\">update your permalink structure</a> to something other than the default."
+msgstr "Eroare: Te rog sa <a href=\"%s\">schimbi legaturile permanente</a> cu legaturi diferite de cele implicite."
+
+#: options.php:368
+msgid "If you like this plugin, why not <a href=\"%s\" title=\"%s\" rel=\"external\">recommend it to others</a> by rating it?"
+msgstr "Daca iti place acest plugin, de ce nu il <a href=\"%s\" title=\"%s\" rel=\"external\">recomanzi si altora</a> votand-ul?"
+
+#: options.php:368
+msgid "Rate this plugin on WordPress.org"
+msgstr "Voteaza acest plugin e WordPress.org"
+
+#: options.php:385
+#: options.php:388
+#: options.php:433
+#: options.php:440
+msgid "Humans TXT File"
+msgstr "Fisier Humans TXT"
+
+#: options.php:391
+msgid "View this site's humans.txt file"
+msgstr "Vezi fisierul humans.txt al acestui site"
+
+#. translators: %s: humans.txt (linked to the site's humans.txt file)
+#: options.php:392
+msgid "Activate %s file"
+msgstr "Activeaza fisierul %s"
+
+#: options.php:395
+msgid "Adds an <link rel=\"author\"> tag to the site's <head> tag pointing to the humans.txt file."
+msgstr "Adauga o eticheta <link rel=\"author\"> in campul <head> catre fisierul humans.txt"
+
+#: options.php:397
+msgid "Add an author link tag to the site"
+msgstr "Adauga o legatura URL a autorului, catre acest site"
+
+#: options.php:403
+#: options.php:406
+msgid "Editing Permissions"
+msgstr "Editarea permisiunilor"
+
+#: options.php:407
+msgid "Roles that can edit the content of the humans.txt file"
+msgstr "Rolul membrilor ce pot modifica continutul fisierului humans.txt"
+
+#: options.php:441
+msgid "If you need a little help with your humans.txt, try the \"Help\" button in the top right corner of this page."
+msgstr "Daca ai nevoie de ajutor cu fisierul tau humans.txt, viziteaza butonul \"Ajutor\" aflat in coltul din dreapta sus al acestei pagini "
+
+#: options.php:450
+msgid "View Revisions"
+msgstr "Vezi reviziile"
+
+#: options.php:457
+msgid "Variables"
+msgstr "Variabile"
+
+#: options.php:461
+msgid "Preview"
+msgstr "Previzualizare"
+
+#: options.php:469
+msgid "Suggest another variable..."
+msgstr "Sugereaza o noua variabila ..."
+
+#: options.php:475
+msgid "Shortcode Usage"
+msgstr "Utilizare scurtatura"
+
+#: options.php:476
+msgid "You can use the <code>[humanstxt]</code> shortcode to display the <em>humans.txt</em> file on a page or in a post. By default, all links, email addresses and Twitter account names will be converted into clickable links and email addresses will be encoded to block spam bots. <a href=\"%s\" rel=\"external\">Of course you can customize it...</a>"
+msgstr "Poti folosi scurtatura <code>[humanstxt]</code> pentru a afisa fisierul <em>humans.txt</em> intr-o pagina sau intr-un articol. Implicit, toate link-urile, adresele de email si contul Twitter vor fi convertite in adrese active iar adresele de email vor fi codate pentru a preveni spam-ul. <a href=\"%s\" rel=\"external\">Desigur, il poti customiza...</a>"
+
+#. translators: %s: revision date
+#: options.php:503
+msgid "Revision created on %s"
+msgstr "Revizie creata %s"
+
+#: options.php:505
+msgid "Restore Revision"
+msgstr "Restaureaza Revizia"
+
+#. translators: %s: number of stored revisions
+#: options.php:544
+msgid "WordPress is storing the last %s revisions of your <em>humans.txt</em> file."
+msgstr "WordPress salveaza ultimele %s revizii ale fisierului <em>humans.txt</em>."
+
+#. Description of the plugin/theme
+msgid "Credit the people behind your website in your <strong>humans.txt</strong> file. Easy to edit, directly within WordPress."
+msgstr "Mentioneaza oamenii din spatele website-ului in fisierul tau <strong>humans.txt</strong>. Usor de editat, direct din interfata WordPress."
+
