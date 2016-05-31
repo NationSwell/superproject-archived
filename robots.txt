@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /rachel-haot-chief-digital-officer-new-york/
+Disallow: /utm-builder/
+Disallow: /fb-ab-testing/
+Disallow: /newsletter-signup-contest-1/
+Disallow: /nsc-portal/
+Disallow: /nscevent/
+Disallow: /nsccontact/
