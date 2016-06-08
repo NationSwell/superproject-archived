@@ -29,3 +29,38 @@ Wordpress will notify of any new upgrades on any of the sites status reports. Th
 * Unzip and replace your local files with the updates
 * Commit to master
 * SSH to server and pull via git
+
+#### Dependencies
+
+1. git `http://git-scm.com/book/en/Getting-Started-Installing-Git`
+2. ruby
+3. npm
+4. brew `http://brew.sh/`
+5. grunt `npm install -g grunt-cli`
+6. fontforge
+   ````
+   brew install ttfautohint fontforge --with-python
+   ````
+7. Xquartz - http://xquartz.macosforge.org/landing/
+8. Bundler - http://bundler.io/
+
+-----
+1. Install virtualbox https://www.virtualbox.org/
+2. Install Vagrant
+   http://www.vagrantup.com/
+3. Install the vagrant-hostsupdater plugin `vagrant plugin install vagrant-hostsupdater`
+4. Navigate to your Sites / web root directory, run `git clone https://github.com/Varying-Vagrant-Vagrants/VVV nationswell`
+5. `cd nationswell`
+6. `vagrant up`
+7. `cd www/wordpress-default`
+8. `git clone https://github.com/NationSwell/superproject nationswell`
+9. `cd superproject`
+10. `mv .git ..`
+11. `cd ..`
+12. `git reset HEAD --hard`
+13. `rm -rf nationswell`
+14. `cd wp-content/themes`
+15. Clone the theme repo: `git clone https://github.com/NationSwell/theme nationswell`
+16. `cd nationswell`
+
+See the theme directory repo for theme development instructions and dependencies: https://github.com/NationSwell/theme
